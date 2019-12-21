@@ -1,0 +1,22 @@
+.department-select-tab {
+    border: 3px solid #e8b05d;
+    background-color: #f9ddb6;
+    padding: 20px;
+}
+.test {
+    display: flex;
+}
+.left {
+    border: 3px solid #e8b05d;
+    background-color: #f9ddb6;
+    width: 20%;
+    height: 600px;
+}
+.right {
+    border: 3px solid #e8b05d;
+    border-left: none;
+    background-color: #f9ddb6;
+    float: right;
+    width: 80%;
+    height:600px;
+}

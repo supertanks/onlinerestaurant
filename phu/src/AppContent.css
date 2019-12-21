@@ -1,0 +1,117 @@
+.newdish-discount {
+	display: block;
+	position: relative;
+}
+.newdish-discount-text {
+	text-align:center;
+	width: 250px;
+	margin: auto;
+}
+.newdish-discount-text p {
+	border: 4px solid #e8b05d;
+	border-radius: 5px;
+	background-color: #e8b05d;
+	font-size: 20px;
+}
+.newdish {
+	display:flex;
+	list-style:none;
+	padding: 5px;
+}
+.newdish li {
+	padding: 5px;
+}
+.newdish li img {
+	height: 260px;
+}
+
+
+
+.menu-list {
+	border: 3px solid #e8b05d;
+	background-image: url('\Image\fadeout-color2.jpg');
+	background-repeat: repeat-x;
+	background-color: white;
+}
+.menu-list-text{
+	text-align:center;
+	width: 200px;
+	margin: auto;
+	font-size: 30px;
+}
+.menupicture{
+	display:flex;
+	list-style:none;
+	padding: 5px;
+}
+.menupicture li div {
+	padding: 5px;
+	text-align: center;
+}
+.menupicture li div p {
+	border: 4px solid #e8b05d;
+	border-radius: 5px;
+	background-color: #e8b05d;
+	text-align:center;
+	width: 130px;
+	margin: auto;
+}
+.menupicture li div img {
+	height: 200px;
+}
+
+
+
+.introduce-tab {
+	display: flex;
+	padding: 20px;
+}
+.introduce {
+	padding:10px;
+}
+.introduce img{
+	float: left;
+	padding-right: 10px;
+}
+.readmore {
+	float: right;
+}
+
+
+.introduce-tab2 {
+	display: flex;
+	padding: 20px;
+}
+.introduce2 img {
+	float: right;
+	padding-left: 10px;
+}
+
+.restaurant-string {
+	border: 2px solid #e8b05d;
+	background-image: url('\Image\fadeout-color2.jpg');
+	background-repeat: repeat-x;
+	background-color: white;
+}
+.restaurant-string p {
+	text-align: center;
+}
+.department-list-tab {
+	display: flex;
+}
+.department-list {
+	padding: 20px;
+}
+.department-list p {
+	text-align: center;
+}
+.department-list p:last-child {
+	border: 4px solid #e8b05d;
+	border-radius: 5px;
+	background-color: #e8b05d;
+	width: 130px;
+	margin: auto;
+}
+.department-list img {
+	height: 200px;
+}

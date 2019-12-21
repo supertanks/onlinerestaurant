@@ -1,0 +1,23 @@
+.departmentItem {
+    display: flex;
+}
+.departmentItem img {
+    height: 300px;
+    width: auto;
+}
+.departmentItem ul{
+    list-style-type: none;
+    align-self: center;
+    width: 30%;
+}
+.departmentItem div {
+    border: 4px solid #e8b05d;
+	border-radius: 5px;
+    background-color: #e8b05d;
+    text-align: center;
+    width: 150px;
+}
+.departmentItem li {
+    display: block;
+    padding: 10px;
+}

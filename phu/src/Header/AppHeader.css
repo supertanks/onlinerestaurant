@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+}
+
+
+
+.login-header {
+	
+}
+.login-header-text {
+	text-align: right;
+	padding-right: 15%;
+}
+
+
+
+.menu-tab {
+	display: flex;
+	border: 3px solid #e8b05d;
+	padding: 5px;
+	margin: 5px;
+	background-image: url('.\Image\fadeout-color2.jpg');
+	align-self: center;
+}
+.restaurant-icon {
+	width: 50px;
+	padding-right: 20px;
+}
+.restaurant-name-block {
+	width: 20%;
+}
+.restaurant-name {
+	font-size: 35px;
+	margin: 0px;
+}
+.head-function {
+	width: 100%;
+	display: flex;
+}
+.head-function li {
+	display: inline;
+	width: 20%;
+	align-self: center;
+}
+.head-function li:first-child {
+	color: #bf0d0d;
+}
+.head-function div {
+	overflow: hidden;
+}
