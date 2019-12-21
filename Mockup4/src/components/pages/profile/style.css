@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400&display=swap&subset=vietnamese');
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    font-family: Fira Sans, sans-serif;
+}
+.maincontent {
+    flex: 1;
+    display: flex;
+    color: #f0f0f0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.user_avatar {
+    padding-right: 50px;
+}
+.user_info {
+    font-size: 32pt;
+    padding-left: 25px;
+    border-right: 1.5px solid;
+}
+.created_time {
+    line-height: 50px;
+    font-size: 14pt;
+    color: #ff720d;
+}

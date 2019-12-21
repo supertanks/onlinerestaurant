@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+.signup_button {
+    background-color: #008ae6;
+}
+.register .maincontent {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;    
+    width: 100%;
+}
+.signup_title {
+    margin-bottom: 10px;
+    font-size: 25pt;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Source Sans Pro,Open Sans,Segoe UI,sans-serif;
+}
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff2c;
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 550px;
+    height: 480px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
+}
+.form-group {
+    display: flex;
+    font-family: Source Sans Pro,Open Sans,Segoe UI,sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 2em; 
+    margin-right: 1.75em;
+    align-items: center;
+    justify-content: space-between;
+}
+.register .form-control {
+    position: relative;
+    width: -webkit-fill-available;
+    display: block;
+    text-align: left;
+	margin: .5em .25em;
+    padding: .8em 1em;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+    float: right;
+}
+.signup_input input{
+    outline: none;
+    font-size: 14px;
+    color: #222;
+	border:none;
+    display: block;
+    background: transparent;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.signup_box button {
+    position: relative;
+    font-family: 'Girassol', cursive;;
+    color: white;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: .8em 1em;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 1em 2em 1.5em;
+    background-color: orange;
+}
+.signup_form button:hover {
+    background-color: #ff7403;
+}
