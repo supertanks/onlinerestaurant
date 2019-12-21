@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './MenuItem.css';
 
 class MenuItem extends Component {
-    render() {
+    render() { 
         return (
             <div class = "menuItem">
                 <img src={this.props.image}/>

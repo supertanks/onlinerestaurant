@@ -1,3 +1,7 @@
 .menuItem {
-    border:none;
+    padding: 10px;
+}
+.menuItem img {
+    width: 30%;
+    height: auto;
 }
